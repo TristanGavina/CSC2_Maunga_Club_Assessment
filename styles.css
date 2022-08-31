@@ -1,0 +1,157 @@
+﻿.logo {
+    padding: 10px 0px 10px 50px;
+    width: 250px;
+}
+
+nav {
+    color: white;
+    float: right;
+    padding: 30px 50px 0px 0px;
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+        nav li a {
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+            /*colour of the navigation text whenver mouse is hovered*/
+            nav li a:hover {
+                background-color: rgb(255 50 0 / 0.85);
+                color: white;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+header {
+    background: rgba(255, 91, 0, 0.85);
+    position: fixed; /*for sticky menu */
+    text-align: left;
+    width: 100%;
+    z-index: 999; /*for it to be visible on top of all other elements */
+}
+
+#homepage {
+    background: black url(../img/maunga_club_cabin.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    top: 0px;
+}
+
+body {
+    color: #00431F;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+nav,
+.button,
+.contact-button {
+    font-family: 'Oswald', sans-serif;
+}
+
+.intro-block {
+    background: rgba(0,0,0,0.65);
+    margin: 0 auto;
+    padding: 15px 35px;
+    text-align: center;
+}
+
+.intro-wrap {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+
+#kakapo {
+    background: rgba(255, 91, 0, 0.12);
+}
+
+#pukeko {
+    background: white;
+}
+
+#about,
+#kakapo,
+#pukeko,
+#kerero
+#contact,
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.three-cards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    margin: 0 auto;
+}
+
+article {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+#before-footer {
+    background-color: #FF5B00;
+    color: white;
+}
+
+.button {
+    color: white;
+    border: 3px solid white;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 30px 5px;
+    min-width: 150px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.contact-button {
+    border: 3px solid #00431F;
+    color: #00431F;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 30px 5px;
+    min-width: 150px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2,
+h3 {
+    font-size: 2.3em;
+}
+
+img{
+    width: 100%;
+}
