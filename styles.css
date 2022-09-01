@@ -33,7 +33,7 @@ nav {
             }
 
 header {
-    background: rgba(255, 91, 0, 0.88);
+    background: rgba(255, 91, 0);
     position: fixed; /*for sticky menu */
     text-align: left;
     width: 100%;
@@ -118,7 +118,7 @@ article {
 }
 
 .button {
-    color: blue;
+    color: white;
     border: 3px solid white;
     font-size: 1.2em;
     font-weight: bold;
@@ -142,9 +142,56 @@ h3 {
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 0 auto;
+    align-content: center;
 }
 
 footer {
-    background-color: blue;
+    background: rgba(255, 91, 0);
     color: white;
+}
+
+table,
+th,
+td{
+    border: solid;
+}
+
+li{
+    text-align: left;
+    margin: 10px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+input[type=radio] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+p{
+    margin: 0px;
 }

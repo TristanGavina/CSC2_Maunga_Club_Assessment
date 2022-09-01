@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maunga Club</title>
 </head>
 <body>
@@ -15,6 +16,7 @@
                 <li><a href="#kakapo">KAKAPO</a></li>
                 <li><a href="#pukeko">PUKEKO</a></li>
                 <li><a href="#kereru">KERERU</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
@@ -42,7 +44,8 @@
                     <td>Kākāpo</td>
                     <td>10</td>
                     <td>30</td>
-                    <td><li>Largest of the chalets</li>
+                    <td>
+                        <li>Largest of the chalets</li>
                         <li>Large kitchen, dining and living area</li>
                         <li>Great amenities</li>
                     </td>
@@ -52,14 +55,19 @@
                     <td>Pūkeko</td>
                     <td>6</td>
                     <td>15</td>
-                    <td><li></li></td>
+                    <td><li>Great for large groups/families wanting a chalet to themselves</li>
+                    <li>Limits on adult/child number ensure comfortable stay</li>
+                    </td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>Kererū</td>
                     <td>2</td>
                     <td>4</td>
-                    <td><li></li></td>
+                    <td><li>Great option for a family</li>
+                        <li>2 bedrooms</li>
+                        <li>Perfect for families with 2-4 children</li>
+                        <li>Separate living area</li></td>
                 </tr>
             </table>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -137,26 +145,48 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus risus varius, porta elit ut, viverra quam.</p>
         </div>
     </section>
-    <footer>
-        <section id="contact">
-            <div class="content">
-                <h1>Contact</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus risus varius, porta elit ut, viverra quam. Praesent a lacinia libero. In accumsan malesuada ex, id mattis tellus eleifend in.</p>
-                <div class="two-cards">
-                    <article>
-                        <h2>Call Us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus risus varius, porta elit ut, viverra quam.</p>
-                        <h3>0256 674 7689</h3>
-                        <h2>Email Us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus risus varius, porta elit ut, viverra quam.</p>
-                        <a href="maungaclub@maungaclub.maungaclub.com" class="contact-button">EMAIL</a>
-                    </article>
-                    <article>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus risus varius, porta elit ut, viverra quam.</p>
-                    </article>
-                </div>
+    <section id="contact">
+        <div class="content">
+            <h1>Contact</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus risus varius, porta elit ut, viverra quam. Praesent a lacinia libero. In accumsan malesuada ex, id mattis tellus eleifend in.</p>
+            <div class="two-cards">
+                <article>
+                    <h2>Call Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus risus varius, porta elit ut, viverra quam.</p>
+                    <h3>0256 674 7689</h3>
+                    <h2>Email Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus risus varius, porta elit ut, viverra quam.</p>
+                    <a href="maungaclub@maungaclub.maungaclub.com" class="contact-button">EMAIL</a>
+                </article>
+                <article>
+                    <form>
+                        <div class="foot-wrap">
+                            <div class="foot-block">
+                                <h2>Sign up now to join the club</h2>
+                                <label for="fname">Full name:</label>
+                                <input type="text" id="fname" name="fname" placeholder="Full name..."><br />
+                                <label for="adress">Physical adress:</label>
+                                <input type="text" id="adress" name="adress" placeholder="Physical Adress..."><br />
+                                <label for="email">Email:</label>
+                                <input type="text" id="email" name="email" placeholder="Email..."><br />
+                                <label for="email">Email:</label>
+                                <input type="text" id="email" name="email" placeholder="Email..."><br />
+                                <p>Chalet Options</p>
+                                <input type="radio" id="kakapo" name="chalet" value="Kākāpo">
+                                <label for="kakapo">Kākāpo</label><br>
+                                <input type="radio" id="pukeko" name="chalet" value="Pūkeko">
+                                <label for="pukeko">Pūkeko</label><br>
+                                <input type="radio" id="kereru" name="chalet" value="Kererū">
+                                <label for="kereru">Kererū</label> <br />
+                                <input type="submit" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+                </article>
             </div>
-        </section>
+        </div>
+    </section>
+    <footer>
         <p><small>&copy; Maunga Club - Website by Web Makers Inc.</small></p>
     </footer>
 </body>
