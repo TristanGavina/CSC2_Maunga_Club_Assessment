@@ -6,7 +6,7 @@
 nav {
     color: white;
     float: right;
-    padding: 30px 50px 0px 0px;
+    padding: 30px 0px 0px 0px;
 }
 
     nav ul {
@@ -21,14 +21,14 @@ nav {
 
         nav li a {
             color: white;
-            padding: 14px 16px;
+            padding: 10px 10px;
             text-decoration: none;
         }
             /*colour of the navigation text whenver mouse is hovered*/
             nav li a:hover {
                 background-color: rgb(255 50 0 / 0.85);
                 color: white;
-                padding: 14px 16px;
+                padding: 10px 10px;
                 text-decoration: none;
             }
 
@@ -59,6 +59,7 @@ body {
 h1,
 h2,
 h3,
+h4,
 nav,
 .button,
 .contact-button {
@@ -137,6 +138,11 @@ h3 {
     font-size: 2.3em;
 }
 
+h4{
+    font-size: 1.2em;
+
+}
+
 .two-cards {
     display: grid;
     grid-gap: 20px;
@@ -150,10 +156,13 @@ footer {
     color: white;
 }
 
-table,
 th,
 td{
     border: solid;
+}
+
+table {
+    width:110%;
 }
 
 li{
@@ -190,8 +199,18 @@ input[type=radio] {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
+    cursor: pointer;
+}
+
+label{
+    text-align: left;
 }
 
 p{
     margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #00431F;
 }
