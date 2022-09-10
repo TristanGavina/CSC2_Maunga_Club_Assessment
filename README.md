@@ -5,3 +5,4 @@ Stylesheet 1st commit: styled image and text alignment, removed text link decora
 Stylesheet 2nd commit: styled table, footer and kereru page
 HTML 2nd commit: made sure when clicked on image shows full, added kereru page, footer and table in about us page
 HTML and Stylesheet 3rd commit: Added and styled contact page
+4th commit: fixed any errors in my code
